@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <title>FORM</title>
+</head>
+<body>
+      <!---------- nav bar --------------->
+      <section >
+        <nav>
+            <a href="#">
+                <img src="photo/GDSCTU-Logo.png" alt="logo" height="150px" width="150"></a>
+            
+            <div>
+                <ul>
+                    <li>
+                        <a href="HOME.HTML">HOME</a>
+                    </li>
+                <li>
+                    <a href="heading.html">BASICS</a>
+                </li>
+                <li>
+                    <a href="form.html">FORM</a>
+                </li>
+                <li>
+                    <a href="table.html">TABLE</a>
+                </li>
+                <li>
+                    <a href="div.html">DIV</a>
+                </li>
+                <li>
+                    <a href="LIST.HTML">LISTS</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+          
+        <hr>
+    <h3>The "form" Element</h3>
+    <h4>The user input is most often sent to a server for processing. <br/>
+    The "form" element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons</h4>
+    <hr/>
+    <h3>The "input" Element</h3>
+    <p>The HTML "input" element is the most used form element.
+            <br/>
+        An "input" element can be displayed in many ways, depending on the type attribute.
+        <br/>
+        Here are some examples:</p>
+
+        <h4> input type="text"	----  Displays a single-line text input field</h4>
+        <h4> input type="radio" ----  Displays a radio button (for selecting one of many choices)</h4>
+        <h4> input type="checkbox" ---- Displays a checkbox (for selecting zero or more of many choices)</h4>
+        <h4> input type="submit" ----	Displays a submit button (for submitting the form)</h4>
+        <h4> input type="button" ----	Displays a clickable button</h4>
+
+        <h2>Let's create a form</h2>
+
+        <form>
+             <fieldset>
+            <legend>cc</legend>
+            <label for="Uname">UserName :</label><br>
+            <input type="text" id="Uname" name="Uname"><br>
+            <label for="PASS">PASSWORD :</label><br>
+            <input type="password" id="PASS" name="PASS"><br>
+            <label for="Mail">ENTER YOUR EMAIL :</label><br>
+            <input type="email" id="Mail" name="Mail"><br>
+            <p>Select your gender : </p>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">female</label><br>
+            <label for="birthdaytime">Birthday (date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
+            <p>Where are you from : </p>
+            <label for="city">Choose a city:</label>
+            <select id="city" name="city">
+                <option value="Medina">Medina</option>
+                <option value="Mecca">Mecca</option>
+                <option value="Jeddah">Jeddah</option>
+                <option value="Riyadh">Riyadh</option>
+            </select><br>
+            <p>talk about yourself :</p>
+            <textarea name="message" rows="10" cols="30">
+            </textarea>
+            <P>Choose the colors you like :</P>
+            <input type="checkbox" id="color1" name="color1" value="RED">
+            <label for="color1"> RED</label><br>
+            <input type="checkbox" id="color2" name="color2" value="GREEN">
+            <label for="color2"> GREEN</label><br>
+            <input type="checkbox" id="color3" name="color3" value="BLUE">
+            <label for="color3"> BLUE</label><br>
+            <br>
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+            <br>
+            <br>
+            <label for="myfile">Import your CV :</label>:</label>
+            <input type="file" id="myfile" name="myfile"><br>
+            <br>
+            <input type="submit" value="Submit">  <input type="reset" value="Reset">
+              </fieldset>
+          </form>
+
+          <hr>
+        <!---------------- footer  ------------>
+    <section>
+        <div>
+                <h4>Follow us</h4>
+                <ul>
+                      <li><a href="https://mobile.twitter.com/gdsctu"><i>twitter</i></a></li>
+                      <li><a href="https://www.linkedin.com/company/gdsctu/?originalSubdomain=sa"><i>linkedin</i></a></li>
+                </ul>
+        </div>
+         <h6>All rights reserved to&copy;GDSC</h6>
+   </section>
+</body>
